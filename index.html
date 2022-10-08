@@ -1,0 +1,70 @@
+<!DOCTYPE hreset-countdowntml>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <!-- favicons  -->
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicons/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicons/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicons/favicon-16x16.png" />
+    <link rel="manifest" href="./favicons/site.webmanifest" />
+    <!-- favicons ends here -->
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- ------------------------ -->
+    
+    <link rel="stylesheet" href="./css/style.css">
+    <title>stopwatch project </title>
+</head>
+<body>
+    <!-- header navbar  -->
+    <header>
+        <nav>
+         <img src="./Logo/png/logo-no-background.png" class="logo-img" alt="my-logo">
+         <h1 class="navbar-title">Time Player</h1>
+        </nav>
+      </header>
+      <!-- header navbar ends here -->
+    <div class="page-switch">
+        <div class="clock-switch">Clock</div>
+        <div class="stopwatch-switch">StopWatch</div>
+        <div class="countdown-switch">Countdownn</div>
+    </div>
+    <div class="container">
+        <!-- stopWatch -->
+        <div class="stopwatch">
+            <h1>Stopwatch</h1>
+             <div class="time"><span>00</span> : <span>00</span> : <span>000</span> </div>
+             <div class="buttons">
+                <button class="pause" disabled>Pause</button>
+                <button class="start">Start</button>
+                <button class="reset" disabled >Reset</button>
+             </div>
+        </div>
+        <!--   stopWatch Ends Here-->
+        <!-- countDown -->
+        <div class="countdown" id="countdown">
+            <h1>Countdown</h1>
+             <div class="CountdownTime"><span><input type="number" min="0" class="hrs-input"> hr</span> : <span><input type="number" min='0'max="60" class="min-input"> min</span> : <span><input type="number" min='0'max="60" class="sec-input"> sec</span> </div>
+             <div class="buttons">
+                <button class="pause" disabled>Pause</button>
+                <button class="start-countdown">Start</button>
+                <button class="reset-countdown">Reset</button>
+             </div>
+        </div>
+        <!--   CountDonw Ends Here-->
+        <!-- clock -->
+        <div class="clock" id="clock">
+            <h1>Digital Clock</h1>
+             <div class="clockTime"><span>00 </span> : <span>00 </span> : <span>00 </span> </div>
+             <div class="buttons">
+                <button class="pause" disabled>Pause</button>
+                <button class="start" disabled>Start</button>
+             </div>
+        </div>
+        <!--   clock Ends Here-->
+    </div>
+   <script src="./script/script.js"></script>
+</body>
+</html>
