@@ -9,7 +9,9 @@ I made this project for practicing js.
 
 <br />
 
-**✅ check it out Deployed Link**  👉  [Live Link of this project](https://js-time-player-by-ashish-nagar.netlify.app/?target="_blank")
+**✅ check it out Deployed Link**  👉  <a href="https://js-time-player-by-ashish-nagar.netlify.app/" target="_blank">Live Link of this project</a>
+
+
 
 
 ## 👨‍💻 Skills used to build :
